@@ -1,0 +1,20 @@
+PODS:
+  - M13ProgressSuite (1.2.9)
+  - pop (1.0.12)
+
+DEPENDENCIES:
+  - M13ProgressSuite
+  - pop (~> 1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - M13ProgressSuite
+    - pop
+
+SPEC CHECKSUMS:
+  M13ProgressSuite: ea9f7263e73e9215e6849dfa54e29ee0ad6a145c
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+
+PODFILE CHECKSUM: 6ce2b7b416b45686b3fb00001168fd9333e14a7c
+
+COCOAPODS: 1.5.3
