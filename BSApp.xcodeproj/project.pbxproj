@@ -117,6 +117,7 @@
 		2C3D32A623782287001582B4 /* BSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D32A523782287001582B4 /* BSUser.m */; };
 		2C3D32AC23783782001582B4 /* BSCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D32AB23783782001582B4 /* BSCommentCell.m */; };
 		2C3D32AF23785411001582B4 /* BSTopStatusBarWIndow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D32AE23785411001582B4 /* BSTopStatusBarWIndow.m */; };
+		2C75191523DEDD5400AF7F43 /* BSSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C75191423DEDD5400AF7F43 /* BSSettingViewController.m */; };
 		2C8CC6CD2348E73B00E8CA62 /* BSFriendsTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8CC6CC2348E73B00E8CA62 /* BSFriendsTabViewController.m */; };
 		2C8CC6D02348E74A00E8CA62 /* BSMyTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8CC6CF2348E74A00E8CA62 /* BSMyTabViewController.m */; };
 		2C8CC6D82348F10D00E8CA62 /* UIImage+originImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8CC6D72348F10D00E8CA62 /* UIImage+originImage.m */; };
@@ -418,6 +419,8 @@
 		2C3D32AB23783782001582B4 /* BSCommentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSCommentCell.m; sourceTree = "<group>"; };
 		2C3D32AD23785411001582B4 /* BSTopStatusBarWIndow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSTopStatusBarWIndow.h; sourceTree = "<group>"; };
 		2C3D32AE23785411001582B4 /* BSTopStatusBarWIndow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSTopStatusBarWIndow.m; sourceTree = "<group>"; };
+		2C75191323DEDD5400AF7F43 /* BSSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSSettingViewController.h; sourceTree = "<group>"; };
+		2C75191423DEDD5400AF7F43 /* BSSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSSettingViewController.m; sourceTree = "<group>"; };
 		2C8CC6CB2348E73B00E8CA62 /* BSFriendsTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSFriendsTabViewController.h; sourceTree = "<group>"; };
 		2C8CC6CC2348E73B00E8CA62 /* BSFriendsTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSFriendsTabViewController.m; sourceTree = "<group>"; };
 		2C8CC6CE2348E74A00E8CA62 /* BSMyTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSMyTabViewController.h; sourceTree = "<group>"; };
@@ -924,6 +927,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		2C75191223DEDD2000AF7F43 /* BSSetting */ = {
+			isa = PBXGroup;
+			children = (
+				2C75191323DEDD5400AF7F43 /* BSSettingViewController.h */,
+				2C75191423DEDD5400AF7F43 /* BSSettingViewController.m */,
+			);
+			path = BSSetting;
+			sourceTree = "<group>";
+		};
 		2C8CC6D12348EF6900E8CA62 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -1032,6 +1044,7 @@
 		2C8CC70D2349855C00E8CA62 /* BSMyTab */ = {
 			isa = PBXGroup;
 			children = (
+				2C75191223DEDD2000AF7F43 /* BSSetting */,
 				2C8CC6CE2348E74A00E8CA62 /* BSMyTabViewController.h */,
 				2C8CC6CF2348E74A00E8CA62 /* BSMyTabViewController.m */,
 				2CD8D64323814646004964C2 /* BSMyTabTopCell.h */,
@@ -1576,6 +1589,7 @@
 				2C8CC72B2349A21A00E8CA62 /* AFSecurityPolicy.m in Sources */,
 				2C8CC75F2349E0FE00E8CA62 /* NSObject+MJClass.m in Sources */,
 				2C019F7C23538DDA00AC9535 /* MJRefreshComponent.m in Sources */,
+				2C75191523DEDD5400AF7F43 /* BSSettingViewController.m in Sources */,
 				2C019F11235354E900AC9535 /* SDImageLoadersManager.m in Sources */,
 				2C32F10F2348E5E500D0CF2A /* BSNewTabViewController.m in Sources */,
 				2C019F0B235354E900AC9535 /* SDAnimatedImageRep.m in Sources */,

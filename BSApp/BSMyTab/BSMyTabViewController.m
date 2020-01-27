@@ -19,6 +19,7 @@
 #import "BSContant.h"
 #import "UIButton+WebCache.h"
 #import "BSComicWebViewController.h"
+#import "BSSettingViewController.h"
 
 
 @interface BSMyTabViewController ()<UITableViewDelegate, UITableViewDataSource>
@@ -49,7 +50,8 @@
 
 - (void)settingClick
 {
-    
+    UIViewController *setVC = [[BSSettingViewController alloc]init];
+    [self.navigationController pushViewController:setVC animated:YES];
 }
 
 - (void)moonModeClick
